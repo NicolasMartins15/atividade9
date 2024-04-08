@@ -6,11 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'orange': '#e28625',
-      'green': '#006971',
-      'dark-green': '#004140',
-      'offwhite': 'rgba(255,255,255, 0.75)',
-      'white': '#fff',
+      'green1': '#5BBA6F',
+      'yellow': '#BAFF29',
+      'green3': '#2A9134',
+      'green4': '#137547',
+      'green5': '#054A29',
       'offwhitebg': '#f2f2f2'
     },
     fontFamily: {
