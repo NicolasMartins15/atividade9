@@ -3,9 +3,12 @@ import Neymar from "./components/Neymar"
 export default function App() {
 
   return (
-    <div> 
-    <Neymar />
-    </div>
+    <body className="bg-green1">
+          <div> 
+            <Neymar />
+          </div>
+    </body>
+
 
   )
 }
