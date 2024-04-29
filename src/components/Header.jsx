@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import NeymarJr from "../assets/neyfoto.jpg"
 export default function Header() {
   return (
@@ -5,7 +6,17 @@ export default function Header() {
          <header className="pt-40 ">  
         
         <h2 className="font-shoulders text-8xl mb-9  text-center ">Neymar: O Caos Perfeito</h2>
-        <img src={NeymarJr} alt="Logo da Serie do Ney " className="mb-10 w-96 ms-auto me-auto " />
+
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/personagens">Personagens</Link>
+            </li>
+          </ul>
+        </nav>
         </header>
     </div>
   )
