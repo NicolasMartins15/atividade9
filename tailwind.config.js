@@ -11,7 +11,10 @@ export default {
       'green3': '#2A9134',
       'green4': '#137547',
       'green5': '#054A29',
-      'offwhitebg': '#f2f2f2'
+      'offwhitebg': '#f2f2f2',
+      'blue1': '#bfdbfe',
+      'blue2': '#1e40af',
+      'blue3': '#164e63'
     },
     fontFamily: {
       'shoulders': '"Big Shoulders Display"',

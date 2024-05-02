@@ -3,16 +3,16 @@ import NeymarJr from "../assets/neyfoto.jpg"
 export default function Header() {
   return (
     <div>
-         <header className="pt-40 ">  
+         <header className="bg-blue1 p-3  ">  
         
-        <h2 className="font-shoulders text-8xl mb-9  text-center ">Neymar: O Caos Perfeito</h2>
+        <h2 className="font-shoulders text-8xl mb-9  text-center text-blue2">Neymar: O Caos Perfeito</h2>
 
         <nav>
-          <ul>
-            <li>
+          <ul className="flex justify-center gap-8">
+            <li className="text-blue3">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="text-blue3">
               <Link to="/personagens">Personagens</Link>
             </li>
           </ul>
